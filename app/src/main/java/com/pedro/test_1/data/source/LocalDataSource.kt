@@ -9,4 +9,6 @@ interface LocalDataSource {
 
     suspend fun saveUser(user: User)
     suspend fun clear()
+
+    //ACTUALLY JUST PLACE THE DATASTORE IN HERE
 }
